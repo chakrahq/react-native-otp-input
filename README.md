@@ -119,7 +119,7 @@ Here are some alternatives you could try:
 - [react-native-otp-inputs](https://www.npmjs.com/package/react-native-otp-inputs)
 - [react-native-otp-textinput](https://www.npmjs.com/package/react-native-otp-textinput)
 
-### Credits
+## Credits
 This repository is a fork. Original source was not maintained for long, so we created this fork and maintain it. We would like to give our thanks and credit for the efforts of the original authors and contributors of these original sources:
 - [tttstudios/react-native-otp-input](https://github.com/tttstudios/react-native-otp-input)
 
