@@ -44,7 +44,8 @@ export default class OTPInputView extends Component<InputProps, OTPInputViewStat
 
     componentDidMount() {
         this.copyCodeFromClipBoardOnAndroid()
-        this.bringUpKeyBoardIfNeeded()
+        // Reference: https://stackoverflow.com/a/46740844/2806690
+        setTimeout(() => this.bringUpKeyBoardIfNeeded(), 100);
         this.keyboardDidHideListener = Keyboard.addListener('keyboardDidHide', this.handleKeyboardDidHide)
     }
 
@@ -158,7 +159,7 @@ export default class OTPInputView extends Component<InputProps, OTPInputViewStat
     }
 
     focusField = (index: number) => {
-        if (index < this.fields.length) {
+        if (index < this.fields.length && this.fields[index]) {
             (this.fields[index] as TextInput).focus();
             this.setState({
                 selectedIndex: index
