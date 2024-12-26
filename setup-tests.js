@@ -43,3 +43,4 @@ console.error = (message) => {
  * and inspect the DOM in tests.
  */
 Enzyme.configure({ adapter: new Adapter() });
+

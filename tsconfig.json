@@ -38,5 +38,5 @@
     "./index.tsx",
     "./styles.ts",
     "./index.d.ts"
-  ],
+  ]
 }

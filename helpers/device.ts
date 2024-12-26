@@ -1,6 +1,8 @@
-import { Platform } from 'react-native'
+import { Platform } from 'react-native';
 
 const majorVersionIOS = parseInt(String(Platform.Version), 10);
-export const isAutoFillSupported = (Platform.OS === 'ios' && majorVersionIOS >= 12)
+export const isAutoFillSupported =
+  Platform.OS === 'ios' && majorVersionIOS >= 12;
 
-export default { isAutoFillSupported }
+export default { isAutoFillSupported };
+
