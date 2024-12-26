@@ -1,6 +1,6 @@
 # Introduction
 
-Thank you for considering contributing to `@twotalltotems/react-native-otp-input`. It's people like you that make the library better.
+Thank you for considering contributing to `@chakrahq/react-native-otp-input`. It's people like you that make the library better.
 
 # Ways to Contribute
 
@@ -19,11 +19,11 @@ If you decided to look into a pending issue, hope the guideline below can help y
 >4. Send a pull request. 
 
 # Code review process
-The development team in TTT Studios looks at Pull Requests on a regular basis. Depends on the PR reviewed, we might reach out with some feedback or clarification. 
+The development team in ChakraHQ looks at Pull Requests on a regular basis. Depends on the PR reviewed, we might reach out with some feedback or clarification. 
 
 After feedback/clarification has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.
 
-TTT Studios appreaciate your interest and effort in contributing to the library. Look forward to your great Pull Requests!
+ChakraHQ appreaciate your interest and effort in contributing to the library. Look forward to your great Pull Requests!
 
 
 

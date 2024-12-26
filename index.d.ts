@@ -1,9 +1,7 @@
-/* typescript declaration file created for @twotalltotems/react-native-otp-input
- * created by: Eric Dao, Becky Wu from TTTStudios
+/* typescript declaration file created for @chakrahq/react-native-otp-input
  */
 
-
-declare module '@twotalltotems/react-native-otp-input' {
+declare module '@chakrahq/react-native-otp-input' {
   import * as React from 'react'
   import { TextStyle, ViewStyle } from 'react-native';
 
